@@ -1,10 +1,8 @@
 ---
 title: Hello, World!
 description: Blog'un geliştirilmesinde izlediğim yol haritasına buradan bakabilirsiniz. Gelecek sürümler içinde güncellemeye devam edeceğim.
-category:
-  - genel
-author:
-  - zeynel kozak
+category: genel
+author: zeynel kozak
 date: '2022-09-16 22:22'
 ---
 
