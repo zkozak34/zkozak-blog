@@ -12,7 +12,7 @@
       <br />
       Kaynak kodlarına
       <a
-        href="https://github.com/zkozak34/nextjs-blog"
+        href="https://github.com/zkozak34/zkozak-blog"
         class="underline font-medium"
         target="_blank"
         >Github</a
