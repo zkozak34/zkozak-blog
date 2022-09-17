@@ -12,8 +12,8 @@
   }
 }
 
-/* @layer base {
+@layer base {
   html {
     @apply overflow-y-scroll;
   }
-} */
+}
