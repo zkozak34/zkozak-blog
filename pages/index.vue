@@ -22,7 +22,7 @@
       <img
         src="/profile.jpg"
         alt="i-am"
-        class="rounded-lg grayscale scale-95 hover:scale-100 hover:grayscale-0 duration-500"
+        class="profile-image rounded-lg scale-95 hover:scale-100 duration-500"
       />
     </div>
   </div>
@@ -34,3 +34,13 @@ export default {
   components: { Social },
 }
 </script>
+
+<style scoped>
+.profile-image {
+  filter: grayscale(100);
+}
+
+.profile-image:hover {
+  filter: grayscale(0);
+}
+</style>
