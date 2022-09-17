@@ -13,24 +13,24 @@
 </template>
 
 <script>
-import { formatDate } from '../../mixins'
+import { formatDate } from "../../mixins";
 export default {
   data() {
     return {
       blogs: [],
-    }
+    };
   },
   async asyncData({ $content }) {
-    const blogs = await $content('blog').fetch()
-    return { blogs }
+    const blogs = await $content("blog").fetch();
+    return { blogs };
   },
   methods: {
     dateFormat(date) {
-      return formatDate(date)
+      return formatDate(date);
     },
   },
   head: {
-    title: 'Zeynel KOZAK - Blog',
+    title: "Zeynel KOZAK - Blog",
   },
-}
+};
 </script>

@@ -17,11 +17,12 @@
 </template>
 
 <script>
-import GithubIconVue from './icons/GithubIcon.vue'
-import LinkedinIconVue from './icons/LinkedinIcon.vue'
-import TwitterIconVue from './icons/TwitterIcon.vue'
-import InstagramIconVue from './icons/InstagramIcon.vue'
-import META from './meta'
+import GithubIconVue from "./icons/GithubIcon.vue";
+import LinkedinIconVue from "./icons/LinkedinIcon.vue";
+import TwitterIconVue from "./icons/TwitterIcon.vue";
+import InstagramIconVue from "./icons/InstagramIcon.vue";
+import SocialBtn from "./SocialBtn.vue";
+import META from "./meta";
 
 export default {
   components: {
@@ -29,11 +30,12 @@ export default {
     LinkedinIconVue,
     TwitterIconVue,
     InstagramIconVue,
+    SocialBtn,
   },
   data() {
     return {
       META,
-    }
+    };
   },
-}
+};
 </script>

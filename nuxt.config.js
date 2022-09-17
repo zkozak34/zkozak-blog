@@ -1,8 +1,5 @@
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Zeynel KOZAK - Frontend Developer',
     htmlAttrs: {
@@ -19,13 +16,7 @@ export default {
     ],
     // link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
-
-  css: ['~/assets/css/main.css'],
-
   buildModules: ['@nuxt/postcss8'],
-
-  modules: ['@nuxt/content'],
-
   build: {
     postcss: {
       plugins: {
@@ -34,4 +25,6 @@ export default {
       },
     },
   },
+  css: ['~/assets/css/main.css'],
+  modules: ['@nuxt/content'],
 }
