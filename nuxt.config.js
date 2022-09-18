@@ -47,7 +47,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '~/static/profile.jpg',
+        content: '/profile.jpg',
       },
       {
         hid: 'og:type',
