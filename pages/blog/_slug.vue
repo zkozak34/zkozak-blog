@@ -52,7 +52,7 @@ export default {
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: 'https://www.zkozak.online/profile.jpg',
+          content: '~/static/profile.jpg',
         },
         {
           hid: 'twitter:image:alt',
@@ -72,12 +72,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: 'https://www.zkozak.online/profile.jpg',
-        },
-        {
-          hid: 'og:image:secure_url',
-          property: 'og:image:secure_url',
-          content: 'https://www.zkozak.online/profile.jpg',
+          content: '~/static/profile.jpg',
         },
         {
           hid: 'og:image:alt',

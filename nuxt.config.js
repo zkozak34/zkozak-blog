@@ -44,6 +44,16 @@ export default {
         content:
           "Zeynel'in kişisel sitesi. Javascript ve kütüphanelerini öğrenme sürecinde edindiğim bilgileri paylaştığım sitemdir. Bu site NuxtJS ile geliştirildi.",
       },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: '~/static/profile.jpg',
+      },
+      {
+        hid: 'og:type',
+        property: 'og:type',
+        content: 'website',
+      },
     ],
     link: [
       {
