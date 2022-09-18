@@ -39,7 +39,6 @@ export default {
           name: 'description',
           content: this.post.description,
         },
-        // Twitter
         {
           hid: 'twitter:title',
           name: 'twitter:title',
@@ -51,11 +50,15 @@ export default {
           content: this.post.description,
         },
         {
-          hid: 'twitter:card',
-          name: 'twitter:card',
-          content: 'summary',
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: 'https://www.zkozak.online/profile.jpg',
         },
-        // Open Graph
+        {
+          hid: 'twitter:image:alt',
+          name: 'twitter:image:alt',
+          content: 'i-am',
+        },
         {
           hid: 'og:title',
           property: 'og:title',
@@ -65,6 +68,21 @@ export default {
           hid: 'og:description',
           property: 'og:description',
           content: this.post.description,
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: 'https://www.zkozak.online/profile.jpg',
+        },
+        {
+          hid: 'og:image:secure_url',
+          property: 'og:image:secure_url',
+          content: 'https://www.zkozak.online/profile.jpg',
+        },
+        {
+          hid: 'og:image:alt',
+          property: 'og:image:alt',
+          content: 'i-am',
         },
       ],
     }
