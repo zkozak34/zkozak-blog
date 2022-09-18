@@ -21,6 +21,27 @@ export default {
         name: 'twitter:card',
         content: 'summary',
       },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Zeynel KOZAK - Frontend Developer',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content:
+          "Zeynel'in kişisel sitesi. Javascript ve kütüphanelerini öğrenme sürecinde edindiğim bilgileri paylaştığım sitemdir. Bu site NuxtJS ile geliştirildi.",
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: '/profile.jpg',
+      },
+      {
+        hid: 'twitter:image:alt',
+        name: 'twitter:image:alt',
+        content: 'i-am',
+      },
       // Open Graph
       {
         hid: 'og:title',
