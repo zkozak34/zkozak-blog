@@ -17,17 +17,6 @@ export default {
       { name: 'author', content: 'Zeynel KOZAK' },
       // Twitter
       {
-        hid: 'twitter:title',
-        name: 'twitter:title',
-        content: 'Zeynel KOZAK - Frontend Developer',
-      },
-      {
-        hid: 'twitter:description',
-        name: 'twitter:description',
-        content:
-          "Zeynel'in kişisel sitesi. Javascript ve kütüphanelerini öğrenme sürecinde edindiğim bilgileri paylaştığım sitemdir. Bu site NuxtJS ile geliştirildi.",
-      },
-      {
         hid: 'twitter:card',
         name: 'twitter:card',
         content: 'summary',
