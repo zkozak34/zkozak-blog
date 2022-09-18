@@ -33,6 +33,23 @@ export default {
   head() {
     return {
       title: this.post.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: `Zeynel KOZAK - ${this.post.description}`,
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: `Zeynel KOZAK - ${this.post.title}`,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: `Zeynel KOZAK - ${this.post.description}`,
+        },
+      ],
     }
   },
 }

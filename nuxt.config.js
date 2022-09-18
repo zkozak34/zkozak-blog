@@ -11,7 +11,39 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Zeynel KOZAK Bloğu- Frontend Developer',
+        content:
+          "Zeynel'in kişisel sitesi. Javascript ve kütüphanelerini öğrenme sürecinde edindiğim bilgileri paylaştığım sitemdir. Bu site NuxtJS ile geliştirildi.",
+      },
+      { name: 'author', content: 'Zeynel KOZAK' },
+      // Twitter
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Zeynel KOZAK - Frontend Developer',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content:
+          "Zeynel'in kişisel sitesi. Javascript ve kütüphanelerini öğrenme sürecinde edindiğim bilgileri paylaştığım sitemdir. Bu site NuxtJS ile geliştirildi.",
+      },
+      // Open Graph
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Zeynel KOZAK - Frontend Developer',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          "Zeynel'in kişisel sitesi. Javascript ve kütüphanelerini öğrenme sürecinde edindiğim bilgileri paylaştığım sitemdir. Bu site NuxtJS ile geliştirildi.",
+      },
+    ],
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://zkozak.online',
       },
     ],
     // link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
