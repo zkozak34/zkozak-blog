@@ -52,7 +52,7 @@ export default {
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: 'c/profile.jpg',
+          content: '/profile.jpg',
         },
         {
           hid: 'twitter:image:alt',
