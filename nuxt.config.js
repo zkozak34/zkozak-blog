@@ -16,7 +16,11 @@ export default {
     ],
     // link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
-  buildModules: ['@nuxt/postcss8'],
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://zkozak.online',
+  },
+  buildModules: ['@nuxt/postcss8', '@/modules/siteMapGenerator'],
   build: {
     postcss: {
       plugins: {
@@ -26,5 +30,5 @@ export default {
     },
   },
   css: ['~/assets/css/main.css'],
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', '@nuxtjs/sitemap'],
 }
