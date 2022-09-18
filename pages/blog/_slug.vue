@@ -37,17 +37,34 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: `Zeynel KOZAK - ${this.post.description}`,
+          content: this.post.description,
         },
+        // Twitter
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: this.post.title,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: this.post.description,
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary',
+        },
+        // Open Graph
         {
           hid: 'og:title',
           property: 'og:title',
-          content: `Zeynel KOZAK - ${this.post.title}`,
+          content: this.post.title,
         },
         {
           hid: 'og:description',
           property: 'og:description',
-          content: `Zeynel KOZAK - ${this.post.description}`,
+          content: this.post.description,
         },
       ],
     }

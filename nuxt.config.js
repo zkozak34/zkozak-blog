@@ -27,6 +27,11 @@ export default {
         content:
           "Zeynel'in kişisel sitesi. Javascript ve kütüphanelerini öğrenme sürecinde edindiğim bilgileri paylaştığım sitemdir. Bu site NuxtJS ile geliştirildi.",
       },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary',
+      },
       // Open Graph
       {
         hid: 'og:title',
